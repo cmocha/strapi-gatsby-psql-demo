@@ -17,7 +17,7 @@ module.exports = {
       resolve: 'gatsby-source-strapi',
       options: {
         apiURL: process.env.DEPLOY_URL
-          ? "https://strapi-gatsby-psql-demo.herokuapp.com/"
+          ? "https://strapi-gatsby-psql-demo.herokuapp.com"
           : "http://192.168.33.10:1337",
         contentTypes: [ // List of the Cont ent Types you want to be able to request from Gatsby.
           'article',
